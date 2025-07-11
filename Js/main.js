@@ -47,10 +47,10 @@ async function loadWeather(){
         let cairoApi = new Promise(function (resolve, reject) {
             let req = new XMLHttpRequest();
             if(searchState&&countrySearch.value!=""){
-                req.open("get",`http://api.weatherapi.com/v1/forecast.json?key=d98adf9a79714ad192b185640250907&q=${countrySearch.value}&days=3`);
+                req.open("get",`https://api.weatherapi.com/v1/forecast.json?key=d98adf9a79714ad192b185640250907&q=${countrySearch.value}&days=3`);
             }
             else{
-                req.open("get",`http://api.weatherapi.com/v1/forecast.json?key=d98adf9a79714ad192b185640250907&q=egypt&days=3`);
+                req.open("get",`https://api.weatherapi.com/v1/forecast.json?key=d98adf9a79714ad192b185640250907&q=egypt&days=3`);
             }
             req.send();
             req.addEventListener("loadend", function () {
