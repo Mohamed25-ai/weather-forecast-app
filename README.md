@@ -34,3 +34,7 @@ The user can search for any country and get the current weather, plus the foreca
 1. Clone the repository:
    ```bash
    git clone https://github.com/Mohamed25-ai/weather-forecast-app.git
+=======
+# weather-forecast-app
+ A simple weather forecast app that shows 3-day weather data using WeatherAPI. Built with vanilla HTML, CSS,Bootstrap and JavaScript. Includes search functionality and dynamic rendering.
+
