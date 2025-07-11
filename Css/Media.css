@@ -1,0 +1,59 @@
+@media (max-width:768px) {
+    .main-content>.container,
+    footer>.container {
+        width: 100%;
+    }
+.weather-navbar i{
+    color: white;
+}
+button:focus:not(:focus-visible) {
+    outline: unset;
+}
+.navbar-toggler:focus {
+    box-shadow: unset;
+}
+.weather-navbar li>a{
+    text-align: center;
+}
+.weather-navbar li{
+    background-color: #262936;
+}
+.weather-footer>.container{
+    width: 100%;
+}
+.contact-main-content>.container{
+    width: 100%;
+}
+/* Contact Page */
+.contact-information{
+    display: block;
+    width: 100%;
+    padding-top: 150px;
+    background-color: #262936;
+}
+.contact-us{
+    width: 100%;
+}
+.parent-contact{
+    display:block;
+}
+.contact-information>.card{
+    width: 100%;
+    background-color: transparent;
+}
+.contact-information>.card>.card-body{
+    background-color: transparent;
+}
+.name-email>.mb-3,
+.company-website>.mb-3{
+width: 100%;
+}
+.search-weather{
+    width: 100%;
+}
+.footer-search{
+    width: 100%;
+}
+
+
+}

@@ -1,0 +1,287 @@
+:root{
+    --Page-font:'Roboto','sans-serif';
+}
+.weather-navbar{
+    background-color: #1E202B;
+}
+.weather-navbar .nav-link{
+    color: white;
+    border: 2px solid transparent;
+    font-family: var(--Page-font);
+    font-size: 14px;
+    font-weight: 400;
+}
+.weather-navbar .nav-link.active{
+    border: 2px solid #009ad8;
+    color: #009ad8;
+    
+}
+.weather-navbar .nav-link:hover{
+    border: 2px solid #009ad8;
+    color: #009ad8;
+}
+.weather-navbar .logo img{
+    width: 65px;
+}
+.brand-name>h1{
+    font-family: var(--Page-font);
+    margin-bottom: 5px;
+    padding: 0;
+}
+.brand-name>p{
+    color: #BFC1C8;
+    font-family: var(--Page-font);
+    font-size: 10px;
+}
+.main-content{
+    background-image: url(../imgs/banner.png);
+    background-repeat: no-repeat;
+    background-color: #1E202B;
+}
+.main-content>.container,
+footer>.container{
+    width: 80%;
+}
+.search-weather {
+    position: relative;
+}
+.search-weather>input{
+    background-color: #1E202B;
+}
+.search-weather>:focus-visible{
+    outline: unset;
+    color: white;
+}
+.search-weather.input-group .btn{
+    position: absolute;
+    background-color: #009ad8;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+/* Cards */
+.card-header{
+    font-family: var(--Page-font);
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #2D303D;
+    border: 0;
+}
+.card-header>span{
+    color: #BFC1C8;
+}
+.card-body{
+    background-color: #323544;
+}
+.card-2>.card-header{
+background-color: #222530;
+}
+.card-2>.card-body{
+background-color: #262936;
+}
+.card-country>p{
+    font-family: var(--Page-font);
+    font-size: 18px;
+    font-weight: 400;
+    color: #BFC1C8;
+}
+.card-temperature>span{
+    font-family: var(--Page-font);
+    color: #FFFFFF;
+    font-size: 90px;
+    font-weight: 700;
+}
+.temperature-state{
+    font-family: var(--Page-font);
+    font-size: 14px;
+    font-weight: 300;
+    color: #009ad8;
+}
+.temperature-state-icons{
+    color:#BFC1C8;
+    font-family: var(--Page-font);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.card-temperature-c2>span{
+    color: white;
+    font-family: var(--Page-font);
+    font-size: 24px;
+    font-weight: 700;
+}
+.card-temperature-night-c2>span{
+    color: #BFC1C8;
+    font-family: var(--Page-font);
+    font-size: 16px;
+    font-weight: 300;
+}
+.temperature-state-2>p{
+        font-family: var(--Page-font);
+    font-size: 14px;
+    font-weight: 300;
+    color: #009ad8;
+}
+.card-3>.card-header{
+    background-color: #2D303D;
+}
+.card-3 .card-body{
+    background-color: #323544;
+}
+/* Footer */
+footer{
+    background-color: #262936;
+}
+.media-icons>a{
+    background-color: #1e202b;
+    text-decoration: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i.fa-brands{
+color: #009ad8;
+}
+.media-icons>a:hover{
+    background-color: #009ad8;
+}
+.media-icons>a:hover i.fa-brands{
+    color: white;
+}
+.rights-message>p{
+    color: #BFC1C8;
+    font-family: var(--Page-font);
+    font-size: 14px;
+    font-weight: 300;
+}
+/* Contact Page */
+.contact-main-content{
+    background-color: #1E202B;
+}
+.contact-main-content>.container{
+    width: 80%;
+}
+.contact-form .form-control{
+    background-color: transparent;
+}
+
+.like-search-input{
+    background-color:#262936;
+}
+.like-search-input>a:nth-child(1){
+    color:#BFC1C8;
+    font-family: var(--Page-font);
+    font-size: 13px;
+    font-weight: 300;
+}
+.like-search-input>i{
+    color:#BFC1C8;
+    font-size: 13px;
+}
+.like-search-input>a:nth-child(3){
+    font-family: var(--Page-font);
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+}
+.location>i,
+.call>i,
+.mail>i{
+    color:#07A5DA;
+}
+.location>span,
+.call>span,
+.mail>span{
+    color: #BFC1C8;
+    font-family: var(--Page-font);
+    font-size: 14px;
+    font-weight: 300;
+}
+.contact-us>header>h2{
+    color: #FFFFFF;
+    font-family: var(--Page-font);
+    font-size: 36px;
+    font-weight: 300;
+}
+.contact-us>header>p{
+    color:#BFC1C8;
+    font-family: var(--Page-font);
+    font-size: 14px;
+    font-weight: 300;
+}
+.contact-form input,
+.feedback textarea{
+    color: white;
+    border: 2px solid #393c48;
+    background: transparent;
+}
+.contact-form .form-control::placeholder{
+    color: #707070;
+}
+.contact-form .form-control:focus{
+    border-color: #009ad8;
+    color: unset;
+    background-color:unset;
+    outline: unset;
+    box-shadow: unset;
+}
+.contact-form .form-control:hover{
+    border-color: #009ad8;
+}
+.submit-button>button{
+    background-color: #009AD8;
+    color: white;
+}
+
+.submit-button .btn:hover{
+    background-color: #009AD8;
+    color: white;
+    border-color: transparent;
+}
+
+/* for  media query */
+.search-weather{
+    /* width: 100%; */
+}
+.contact-information{
+    width: 50%;
+    display: flex;
+}
+.contact-information>.card{
+    width: 75%;
+}
+.contact-us{
+    width: 50%;
+}
+.parent-contact{
+    display: flex;
+}
+.name-email>.mb-3,
+.company-website>.mb-3{
+width: 50%;
+}
+.footer-search{
+    width: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: Roboto;
+    src: url(../Pagefont/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
